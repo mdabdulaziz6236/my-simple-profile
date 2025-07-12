@@ -9,11 +9,22 @@
 }
 
 /* shared style */
+.secondary-bg{
+background-color: rgba(255, 248, 243, 1);
+}
 .text-primary{
     color: #FD6E0A;
 }
 .text-extra{
     color: chartreuse;
+}
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+}
+.section-description{
+    font-size: 18px;
+    color: rgba(117, 117, 117, 1);
 }
 /* btn primary */
 .btn-primary{
@@ -31,6 +42,7 @@
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position:top left, bottom right;
+    
 }
 /* Nav styles */
 nav{
@@ -65,11 +77,15 @@ nav ul li a{
     display: flex;
     justify-content: space-between;
     margin: 0 35px 0 200px;
+    
 }
 .banner-content{
     max-width: 585px;
     max-height: 676px;
 
+}
+.banner-salam{
+    font-size: 23px;
 }
 .banner-greetings{
     font-size: 45px;
@@ -82,4 +98,22 @@ nav ul li a{
 .banner-profile-picture{
     width: 584px;
     height: 676px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about style */
+.about{
+    border-radius: 10px;
+    padding: 131px 157px;
+    text-align: center;
+    margin: 130px;
+}
+.item-description{
+    font-weight: 600;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
 }
