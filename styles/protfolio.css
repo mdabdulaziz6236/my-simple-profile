@@ -37,6 +37,16 @@
   border-radius: 5px;
   border: none;
 }
+.btn-primary:hover {
+  background-color: purple ;
+  cursor: pointer;
+  border: 3px solid blue;
+  transform: scale(1.1);
+  transition: 0.3s;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
 .header {
   background-image: url(../images/developer.png), url(../images/header_bg.png);
   background-repeat: no-repeat;
@@ -53,6 +63,9 @@ nav {
 .nav-title {
   font-weight: 800;
   font-size: 45px;
+}
+.nav-title:hover{
+   text-shadow: 2px 2px 5px gray;
 }
 nav ul {
   display: flex;
@@ -93,7 +106,19 @@ nav ul li a {
 }
 .banner-profile-picture {
   width: 584px;
+  
   /* height: 676px; */
+}
+.banner-profile-picture:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+  transition: box-shadow 0.3s;
+   transform: rotate(5deg);
+  transition: transform 0.3s;
+
 }
 /* main style */
 main {
